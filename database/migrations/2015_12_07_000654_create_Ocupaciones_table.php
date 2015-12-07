@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateClientesTable extends Migration
+class CreateOcupacionesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,10 @@ class CreateClientesTable extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('ocupaciones', function($table){
+        	$table->increments('id');
+        	$table->string('ocupacion');
+        });
     }
 
     /**
@@ -22,6 +25,6 @@ class CreateClientesTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('ocupaciones');
     }
 }
