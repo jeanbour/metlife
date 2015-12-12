@@ -13,17 +13,17 @@ class CreateDomiciliosTable extends Migration
     public function up()
     {
         Schema::create('domicilios', function($table) {
-        	$table->increments('id');
-        	$table->integer('id_municipio')->unsigned();
-        	$table->string('calle', 50);
-        	$table->string('num_exterior', 20);
-        	$table->string('num_interior', 20);
-        	$table->string('comunidad', 75);
+            $table->increments('id');
+            $table->integer('id_localidad')->unsigned();
+            $table->string('calle', 50);
+            $table->string('num_exterior', 20);
+            $table->string('num_interior', 20);
+            $table->string('comunidad', 75);
 
         });
 
         Schema::table('domicilios', function($table) {
-        	$table->foreign('id_municipio')->references('id')->on('municipios');
+            $table->foreign('id_localidad')->references('id')->on('localidades');
         });
     }
 
