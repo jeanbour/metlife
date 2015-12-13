@@ -22,7 +22,7 @@
     <!-- Custom styling plus plugins -->
     <!-- <link href="{{ asset('css/icheck/flat/green.css') }}" rel="stylesheet">
     <link href="{{ asset('css/floatexamples.css') }}" rel="stylesheet"> -->
-    
+
     <!--[if lt IE 9]>
         <script src="../assets/js/ie8-responsive-file-warning.js"></script>
         <![endif]-->
@@ -74,7 +74,7 @@
                                     <ul class="nav child_menu" style="display: none">
                                         <li><a href="{!! route('produccion') !!}">Captura producción</a>
                                         </li>
-                                        <li><a href="index.html">Captura de servicios</a>
+                                        <li><a href="{!! route('servicios') !!}">Captura de servicios</a>
                                         </li>
                                         <li><a href="index.html">Emision de pólizas</a>
                                         </li>
@@ -87,7 +87,7 @@
                                         <li><a href="index.html">Captura recibos de aceptación</a>
                                         </li>
                                         <li><a href="index.html">Captura de acuses de servicio</a>
-                                        </li>   
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><a class="modulo"><i class="fa fa-bars"></i>Reportes de venta <span class="fa fa-chevron-down"></span></a>
@@ -101,7 +101,7 @@
                                         <li><a href="tables_dynamic.html">Informes de devoluciones de servicios por agente/auxiliar</a>
                                         </li>
                                         <li><a href="tables_dynamic.html">Informe de polizas pendientes de entrega</a>
-                                        </li> 
+                                        </li>
                                     </ul>
                                 </li>
                                 <li><a class="modulo"><i class="fa fa-usd"></i> Indicadores de venta <span class="fa fa-chevron-down"></span></a>
@@ -279,7 +279,7 @@
                                             <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
                                     </span>
                                         </a>
                                     </li>
@@ -293,7 +293,7 @@
                                             <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
                                     </span>
                                         </a>
                                     </li>
@@ -307,7 +307,7 @@
                                             <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
                                     </span>
                                         </a>
                                     </li>
@@ -321,7 +321,7 @@
                                             <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where... 
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
                                     </span>
                                         </a>
                                     </li>
@@ -357,7 +357,7 @@
 
                 <footer>
                     <div class="">
-                        <p class="pull-right">Metlife administration system by <a>JEANBO</a>. 
+                        <p class="pull-right">Metlife administration system by <a>JEANBO</a>.
                             <!-- <span class="lead"> <i class="fa fa-book"></i> Metlife!</span> -->
                         </p>
                     </div>
@@ -379,11 +379,11 @@
     </div>
 
 
-    
+
     <script type="text/javascript" src="{{ asset('assets/js/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/js/custom.js') }}"></script>
- 
+
     @yield('scripts')
 
     <!-- /datepicker -->

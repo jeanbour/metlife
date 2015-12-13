@@ -15,4 +15,11 @@ Route::get('/', function () {
     return view('layout');
 });
 
-Route::get('/captura/produccion', ['as' => 'produccion', 'uses' => 'CapturaController@index'] );
+Route::get('/captura/produccion', ['as' => 'produccion', 'uses' => 'CapturaController@capturaProduccion'] );
+
+Route::get('/captura/servicios', ['as' => 'servicios', 'uses' => 'CapturaController@capturaServicios'] );
+
+Route::post('/registrarProduccion', ['as' => 'registrarProduccion', 'uses' => 'CapturaController@registrarProduccion'] );
+
+Route::post('/registrarServicios', ['as' => 'registrarServicios', 'uses' => 'CapturaController@registrarServicios'] );
+
