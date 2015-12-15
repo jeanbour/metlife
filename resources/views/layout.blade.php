@@ -47,7 +47,7 @@
                 <div class="left_col scroll-view">
 
                     <div class="navbar nav_title" style="border: 0;">
-                        <!-- <a href="index.html" class="site_title"> <span>Metlife</span></a> -->
+                        <a href="#" class="site_title"> <span>Metlife</span></a>
                     </div>
                     <div class="clearfix"></div>
 
@@ -76,9 +76,9 @@
                                         </li>
                                         <li><a href="{!! route('servicios') !!}">Captura de servicios</a>
                                         </li>
-                                        <li><a href="index.html">Emision de pólizas</a>
+                                        <li><a href="{!! route('edicion') !!}">Emision Rechazos y Recibos</a>
                                         </li>
-                                        <li><a href="index.html">Emision de servicios</a>
+                                      <!--   <li><a href="index.html">Emision de servicios</a>
                                         </li>
                                         <li><a href="index.html">Rechazo de solicitudes</a>
                                         </li>
@@ -87,7 +87,7 @@
                                         <li><a href="index.html">Captura recibos de aceptación</a>
                                         </li>
                                         <li><a href="index.html">Captura de acuses de servicio</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </li>
                                 <li><a class="modulo"><i class="fa fa-bars"></i>Reportes de venta <span class="fa fa-chevron-down"></span></a>
@@ -213,7 +213,7 @@
                     <!-- /sidebar menu -->
 
                     <!-- /menu footer buttons -->
-                    <div class="sidebar-footer hidden-small">
+                    <!-- <div class="sidebar-footer hidden-small">
                         <a data-toggle="tooltip" data-placement="top" title="Settings">
                             <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
                         </a>
@@ -226,7 +226,7 @@
                         <a data-toggle="tooltip" data-placement="top" title="Logout">
                             <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
                         </a>
-                    </div>
+                    </div> -->
                     <!-- /menu footer buttons -->
                 </div>
             </div>
@@ -263,79 +263,6 @@
                                 </ul>
                             </li>
 
-                            <li role="presentation" class="dropdown">
-                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span class="badge bg-green">6</span>
-                                </a>
-                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list animated fadeInDown" role="menu">
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image">
-                                        <img src="images/img.jpg" alt="Profile Image" />
-                                    </span>
-                                            <span>
-                                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                                    </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <div class="text-center">
-                                            <a>
-                                                <strong><a href="inbox.html">See All Alerts</strong>
-                                                <i class="fa fa-angle-right"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-
                         </ul>
                     </nav>
                 </div>
@@ -355,14 +282,14 @@
 
                 <!-- footer content -->
 
-                <footer>
+                <!-- <footer>
                     <div class="">
                         <p class="pull-right">Metlife administration system by <a>JEANBO</a>.
-                            <!-- <span class="lead"> <i class="fa fa-book"></i> Metlife!</span> -->
+                            <span class="lead"> <i class="fa fa-book"></i> Metlife!</span>
                         </p>
                     </div>
                     <div class="clearfix"></div>
-                </footer>
+                </footer> -->
                 <!-- /footer content -->
             </div>
             <!-- /page content -->

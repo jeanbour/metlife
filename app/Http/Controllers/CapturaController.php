@@ -25,6 +25,11 @@ class CapturaController extends Controller
         return View::make('captura/servicios');
     }
 
+    public function capturaEdicion()
+    {
+        return View::make('captura/edicion');
+    }
+
 
     public function registrarProduccion()
     {

@@ -12,14 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('layout');
+    return view('login');
 });
 
 Route::get('/captura/produccion', ['as' => 'produccion', 'uses' => 'CapturaController@capturaProduccion'] );
 
 Route::get('/captura/servicios', ['as' => 'servicios', 'uses' => 'CapturaController@capturaServicios'] );
 
+Route::get('/captura/edicion', ['as' => 'edicion', 'uses' => 'CapturaController@capturaEdicion'] );
+
 Route::post('/registrarProduccion', ['as' => 'registrarProduccion', 'uses' => 'CapturaController@registrarProduccion'] );
 
 Route::post('/registrarServicios', ['as' => 'registrarServicios', 'uses' => 'CapturaController@registrarServicios'] );
+
+Route::post('/login', ['as' => 'login', 'uses' => 'LoginController@login'] );
 
